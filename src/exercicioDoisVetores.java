@@ -10,7 +10,7 @@ public class exercicioDoisVetores {
         for(int i = 0; i < vetor.length; i++){
             vetor[i] = leitor.nextInt();
         }
-
+        
         System.out.println("\n\n\n\nLista de números pares:");
         for(int i = 0; i < vetor.length; i++){
             if(vetor[i] % 2 == 0){

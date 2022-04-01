@@ -1,18 +1,16 @@
-import java.util.Scanner;
-
 public class exercicioUmVetores {
     public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in);
         int[] vetorSoma = new int[5];
+        vetorSoma[0] = 21;
+        vetorSoma[1] = 21;
+        vetorSoma[2] = 21;
+        vetorSoma[3] = 21;
+        vetorSoma[4] = 21;
         int somaNumeros = 0;
 
-        System.out.println("Digite cinco valores:");
-        for(int i = 0; i < 5; i++){
-            vetorSoma[i] = leitor.nextInt();
+        for(int i = 0; i < vetorSoma.length; i++){
             somaNumeros += vetorSoma[i];
         }
-
-        leitor.close();
 
         System.out.println("A soma dos números é " + somaNumeros);
     }
